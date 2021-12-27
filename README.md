@@ -1,7 +1,7 @@
 # Kickstarting with Excel
 
 ## Overview of Project
-This project [Kickstarter_Challenge.xlsx.zip](/https://github.com/SohaT7/Kickstarter-Analysis/to/Kickstarter_Challenge.xlsx.zip) takes a look at how Kickstarter campaigns in the category of 'Theater' fared depending on the month in which they were launched, as well as how the Kickstarter campaigns in the subcategory of 'Plays' fared based on the range of amount set as a Goal for the campaign.
+This project [Kickstarter_Challenge.xlsx.zip](https://github.com/SohaT7/Kickstarter-Analysis/blob/main/Kickstarter_Challenge.xlsx.zip/to/Kickstarter_Challenge.xlsx.zip) takes a look at how Kickstarter campaigns in the category of 'Theater' fared depending on the month in which they were launched, as well as how the Kickstarter campaigns in the subcategory of 'Plays' fared based on the range of amount set as a Goal for the campaign.
 ### Purpose
 The purpose of the project is to help Louise establish how different campaigns fared based on their launch dates and their respective funding goals. This will help her better understand the underlying trends that may have contributed to her play 'Fever' almost reaching its funding goal target in a short time period. 
 ## Analysis and Challenges
