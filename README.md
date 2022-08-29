@@ -48,7 +48,7 @@ This discrepancy was found out by comparing the number of successful, failed, an
 ![Screenshot_Line Chart Fixed](https://github.com/SohaT7/Kickstarter-Analysis/blob/main/Screenshot_Line%20Chart%20Fixed.png)
 
 ## Summary
-- Conclusions the Outcomes based on Launch Date:
+- Conclusions about the Outcomes based on Launch Date:
 We can conclude that successful campaigns reach their peak if launched in the summer months of May through July, with the highest number of successful campaigns being ones launched in May, followed by those launched in June, and then in July. There is a decrease in successful campaigns launched in the winter months of November and December. It could be because more people go to theater in the summer than in the winter and perhaps it is the popularity of a theater production in its intial months that determines its popularity henceforth to some extent, which may be why how it fares in its launch month affects how it fares afterwards as well. We can also see that the failed campaigns reach their peak in May, followed by July and October, where all three data points are quite close to one another. A peak in failed campaigns launched in summer should be taken into account in conjunction with how there are generally just a larger number of theater productions' campaigns launching in the summer so the increase in failed ones might be reflecting that general increase to some extent. 
 
 - Conclusion about the Outcomes based on Goals:
