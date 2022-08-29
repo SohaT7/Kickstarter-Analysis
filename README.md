@@ -20,22 +20,31 @@ The two line charts depicting outcomes based on launch date and outcomes based o
 ### (a) Analysis of Outcomes Based on Launch Date:
 Outcomes based on launch date were analysed for the category of 'Theater', and a line chart was made with the month of launch on the x-axis and the number of campaigns on the y-axis. The line chart then tells us the number of campaigns that were successful, failed, and canceled, depending upon which month they were launched in. ![Theater_Outcomes_vs_Launch](https://github.com/SohaT7/Kickstarter-Analysis/blob/main/Theater_Outcomes_vs_Launch.png) 
 The month of May has the highest number of successful campaigns (111 campaigns), followed by June (100 campaigns). For all twelve months, number of successful campaigns supercedes failed campaigns, although the margin between the two is the smallest (a difference of only two campaigns) in the month of December so that can be considered negligible, and the number of failed campaigns supercedes canceled ones. Few campaigns are canceled each month (range is not more than 7), with the highest number being when campaigns were launched in January, and lowest in July. The month of October does not have a data entry for it (it could either be 0 or have a value that is absent from the dataset). The highest number of failed campaigns are when campaigns were launched in the month of May, followed by July and October. The line chart for the successful campaigns has an increasing trend with three decrements from Feb-March, a longer one from May till September, and the last one from October to December. The sharpest increase for successful campaigns can be seen from April to May (an increase of 40 campaigns).
+
 ![Screensho_Theater Outcomes based on Launch Date](https://github.com/SohaT7/Kickstarter-Analysis/blob/main/Screenshot_Theater%20Outcomes%20based%20on%20Launch%20Date.png)
 
 ### (b) Analysis of Outcomes Based on Goals:
-A line chart for Outcomes Based on Goals was made with the ranges for goals on the x-axis and the percentage of campaigns in the subcategory of 'Plays' on the y-axis. The line chart then tells us the percentage of campaigns for 'Plays' that were successful, failed, or canceled for each funding goal range. ![Outcomes_vs_Goals](https://github.com/SohaT7/Kickstarter-Analysis/blob/main/Outcomes_vs_Goals.png)
+A line chart for Outcomes Based on Goals was made with the ranges for goals on the x-axis and the percentage of campaigns in the subcategory of 'Plays' on the y-axis. The line chart then tells us the percentage of campaigns for 'Plays' that were successful, failed, or canceled for each funding goal range.
+
+![Outcomes_vs_Goals](https://github.com/SohaT7/Kickstarter-Analysis/blob/main/Outcomes_vs_Goals.png)
+
 The first noticeable thing in our graph is that the line trends for successful campaigns and failed campaigns are exactly complementary to one another; this is because our 'Total Projects' in this dataset is defined by adding together successful, failed, and canceled campaigns, and since no campaigns were canceled for any range of goal, successful and failed campaigns are the only ones that comprise a 100% of campaigns for that goal range. 
 As the goal amount increases, there are fewer number of campaigns that are successful and more that have failed, up until the range of 25000-29999, after which the successful campaigns increase (and failed campaigns decrease) till the range of 35000-39999. It could be that increments in the goal amount up until 20000-24999 were not considerable enough for campaigns to have been successful (or not considerable enough to garner enough support for the campaign). The sharpest increase in successful campaigns (and sharpest decrease in failed campaigns) is from the range 30000-34999 till the range of 35000-39999, with no effect when range increases from 35000-39999 to 40000-44999, and the sharpest decrease in successful campaigns (and sharpest increase in failed campaigns) is for a change in range from 40000-44999 to 45000-49999, where 0% campaigns have been successful (and 100% have failed). There is an increase in successful campaigns again after 49999. 
 
 ### (c) Challenges and Difficulties Encountered:
 
 #### (i) The Challenge and Difficulty:
-A challenge and difficulty was encountered while making the line chart for Outcomes Based on Goal. For the last range of 'Greater than 50000' that we created, there were 4 missing 'Failed' campaigns in our 'Number Failed' column. There was no such discrepancy in the 'Number Successful' and 'Number Canceled' columns. ![Screenshot_4 Missing Failed Campaigns](https://github.com/SohaT7/Kickstarter-Analysis/blob/main/Screenshot_4%20Missing%20Failed%20Campaigns.png)
+A challenge and difficulty was encountered while making the line chart for Outcomes Based on Goal. For the last range of 'Greater than 50000' that we created, there were 4 missing 'Failed' campaigns in our 'Number Failed' column. There was no such discrepancy in the 'Number Successful' and 'Number Canceled' columns. 
+
+![Screenshot_4 Missing Failed Campaigns](https://github.com/SohaT7/Kickstarter-Analysis/blob/main/Screenshot_4%20Missing%20Failed%20Campaigns.png)
 
 #### (ii) How the Challenge and Difficulty was Fixed:
 This discrepancy was found out by comparing the number of successful, failed, and canceled campaigns for the subcategory of 'Plays' in our datasheet versus the larger, main data sheet. The calculation for our datasheet was done by running the SUM function for data entries in the 'Number Successful', 'Number Failed', and 'Number Canceled' columns. This was followed by running the COUNTIFS function on the larger, main data sheet to count the number of successful, failed, and canceled campaigns therein. If the two numbers did not match, there was a discrepancy. There were 349 failed campaigns in our sheet as opposed to 353 in the larger data sheet: thus 4 missing campaigns in our sheet. This was fixed by creating a range of 'Greater than or Equal to 50000' for our purposes. This includes those 4 missing data points in our data sheet.
+
 ![Screenshot_Line Chart Initial](https://github.com/SohaT7/Kickstarter-Analysis/blob/main/Screenshot_Line%20Chart%20Initial.png)
+
 ![Line Chart Initial.png](https://github.com/SohaT7/Kickstarter-Analysis/blob/main/Line%20Chart%20Initial.png)
+
 ![Screenshot_Line Chart Fixed](https://github.com/SohaT7/Kickstarter-Analysis/blob/main/Screenshot_Line%20Chart%20Fixed.png)
 
 ## Summary
