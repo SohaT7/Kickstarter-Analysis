@@ -19,7 +19,7 @@
 The purpose of this analysis is to help a client establish how different campaigns fared based on their launch dates and their respective funding goals. This will help the client better understand the underlying trends that may have contributed to their play 'Fever' almost reaching its funding goal target in a short time period. 
 
 ### About the Dataset:
-The dataset is contained in the following Excel file:
+The dataset contains information on about 4,000 crowdfunding projects. The dataset is contained in the following Excel file:
 
 [Kickstarter data](https://github.com/SohaT7/Kickstarter-Analysis/blob/main/Kickstarter%20Analysis.xlsx)
 
