@@ -47,12 +47,12 @@ The first noticeable thing in our graph is that the line trends for successful c
 As the goal amount increases, there are fewer number of campaigns that are successful and more that have failed, up until the range of 25000-29999, after which the successful campaigns increase (and failed campaigns decrease) till the range of 35000-39999. It could be that increments in the goal amount up until 20000-24999 were not considerable enough for campaigns to have been successful (or not considerable enough to garner enough support for the campaign). The sharpest increase in successful campaigns (and sharpest decrease in failed campaigns) is from the range 30000-34999 till the range of 35000-39999, with no effect when range increases from 35000-39999 to 40000-44999, and the sharpest decrease in successful campaigns (and sharpest increase in failed campaigns) is for a change in range from 40000-44999 to 45000-49999, where 0% campaigns have been successful (and 100% have failed). There is an increase in successful campaigns again after 49999. 
 
 ### Challenges and Difficulties Encountered:
-#### The Challenge and Difficulty:
+#### The Challenge and Difficulty
 A challenge and difficulty was encountered while making the line chart for Outcomes Based on Goal. For the last range of 'Greater than 50000' that we created, there were 4 missing 'Failed' campaigns in our 'Number Failed' column. There was no such discrepancy in the 'Number Successful' and 'Number Canceled' columns. 
 
 ![Screenshot_4 Missing Failed Campaigns](https://github.com/SohaT7/Kickstarter-Analysis/blob/main/Images/Screenshot_4%20Missing%20Failed%20Campaigns.png)
 
-#### How the Challenge and Difficulty was Fixed:
+#### How the Challenge and Difficulty was Fixed
 This discrepancy was found out by comparing the number of successful, failed, and canceled campaigns for the subcategory of 'Plays' in our datasheet versus the larger, main data sheet. The calculation for our datasheet was done by running the SUM function for data entries in the 'Number Successful', 'Number Failed', and 'Number Canceled' columns. This was followed by running the COUNTIFS function on the larger, main data sheet to count the number of successful, failed, and canceled campaigns therein. If the two numbers did not match, there was a discrepancy. There were 349 failed campaigns in our sheet as opposed to 353 in the larger data sheet: thus 4 missing campaigns in our sheet. This was fixed by creating a range of 'Greater than or Equal to 50000' for our purposes. This includes those 4 missing data points in our data sheet.
 
 ![Screenshot_Line Chart Initial](https://github.com/SohaT7/Kickstarter-Analysis/blob/main/Images/Screenshot_Line%20Chart%20Initial.png)
